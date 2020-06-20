@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="41.241" tests="89" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/sys/myws/rest-assured/testng/target/test-classes:/Users/sys/myws/rest-assured/testng/target/classes:/Users/sys/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/sys/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/sys/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/sys/.m2/repository/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar:/Users/sys/.m2/repository/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Dubai"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="user.country" value="AU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="/Users/sys/myws/rest-assured/testng/target/surefire/surefirebooter6235856957269082447.jar /Users/sys/myws/rest-assured/testng/target/surefire 2020-06-20T12-07-38_261-jvmRun1 surefire6167441586275917730tmp surefire_06869141611040151351tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="surefire.test.class.path" value="/Users/sys/myws/rest-assured/testng/target/test-classes:/Users/sys/myws/rest-assured/testng/target/classes:/Users/sys/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/sys/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/sys/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/sys/.m2/repository/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar:/Users/sys/.m2/repository/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/sys"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/sys/myws/rest-assured/testng"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/sys/myws/rest-assured/testng/target/surefire/surefirebooter6235856957269082447.jar"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_161-b12"/>
+    <property name="user.name" value="sys"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.4"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/sys/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/32/6256hbm145b0zlbmpc80fz0c0000gp/T/"/>
+    <property name="java.version" value="1.8.0_161"/>
+    <property name="user.dir" value="/Users/sys/myws/rest-assured/testng"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/sys/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.161-b12"/>
+    <property name="java.ext.dirs" value="/Users/sys/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="login_test[Sashi, Secret](1)" classname="smartbytes.testng.testcases.LoginTest" time="0.006">
+    <system-out><![CDATA[Signing in with username : Sashi pwd:Secret
+]]></system-out>
+  </testcase>
+  <testcase name="subtractTest[[I@7ca592e3](1)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@7bc619b](2)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="addTest[[I@21e1d628](1)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@4e2c7ca0](3)" classname="smartbytes.testng.testcases.DataProviderTest" time="0.002"/>
+  <testcase name="subtractTest[[I@b1f3c3c](4)" classname="smartbytes.testng.testcases.DataProviderTest" time="0.006"/>
+  <testcase name="addTest[[I@6fddb442](2)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@7ba0adfb](5)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="addTest[[I@3e4358b2](3)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@3f16052b](6)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="addTest[[I@39d7fdc7](4)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@37020874](7)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="addTest[[I@685db4f7](5)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="addTest[[I@4286479](6)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@24c77e1a](8)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="addTest[[I@32030099](7)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@57183bc6](9)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="addTest[[I@4ba7b678](8)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@5b9c061c](10)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="addTest[[I@312203b9](9)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@4bd431f3](11)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@102e0dcd](12)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="addTest[[I@137e9190](10)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@5d4f56](13)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@1b71fc5](14)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@641b10f9](15)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@5169e05](16)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@ac2bc45](17)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@22551e55](18)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@1a281d19](19)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="addTest[[I@57f61d5e](11)" classname="smartbytes.testng.testcases.DataProviderTest" time="0.001"/>
+  <testcase name="addTest[[I@32049ca9](12)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="addTest[[I@6419d338](13)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="addTest[[I@2c8de5b6](14)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@4e9eb44](20)" classname="smartbytes.testng.testcases.DataProviderTest" time="0.001"/>
+  <testcase name="addTest[[I@14409b3c](15)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="addTest[[I@3b09c2b9](16)" classname="smartbytes.testng.testcases.DataProviderTest" time="0.001"/>
+  <testcase name="addTest[[I@6cfbc64c](17)" classname="smartbytes.testng.testcases.DataProviderTest" time="0.001"/>
+  <testcase name="addTest[[I@505a2979](18)" classname="smartbytes.testng.testcases.DataProviderTest" time="0">
+    <system-out><![CDATA[[INFO ] - subtractTest
+]]></system-out>
+  </testcase>
+  <testcase name="addTest[[I@74f8cdaa](19)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="addTest[[I@7a9e1871](20)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="addTest[[I@4c433fcc](1)" classname="smartbytes.testng.testcases.DataProviderTest" time="0">
+    <system-out><![CDATA[Signing Out....
+]]></system-out>
+  </testcase>
+  <testcase name="addTest[[I@6ece61a7](2)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="addTest[[I@50c3d123](3)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="addTest[[I@390cda5b](4)" classname="smartbytes.testng.testcases.DataProviderTest" time="0.001"/>
+  <testcase name="addTest[[I@2b67fa32](5)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="addTest[[I@4223ffb0](6)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="addTest[[I@28b7b18f](7)" classname="smartbytes.testng.testcases.DataProviderTest" time="0.001"/>
+  <testcase name="addTest[[I@7918f950](8)" classname="smartbytes.testng.testcases.DataProviderTest" time="0.002"/>
+  <testcase name="addTest[[I@7b669cfb](9)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="addTest[[I@3b8f6fb2](10)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="addTest[[I@593f3f15](11)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="addTest[[I@2548f68](12)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="addTest[[I@3b1826e3](13)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="addTest[[I@6b523f27](14)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="addTest[[I@71b06067](15)" classname="smartbytes.testng.testcases.DataProviderTest" time="0.001"/>
+  <testcase name="addTest[[I@18183a9d](16)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="addTest[[I@4a9a763c](17)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="addTest[[I@3d3f49fb](18)" classname="smartbytes.testng.testcases.DataProviderTest" time="0.001"/>
+  <testcase name="addTest[[I@40e2b90e](19)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="addTest[[I@3190fece](20)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@3d9a55c6](1)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@452809ab](2)" classname="smartbytes.testng.testcases.DataProviderTest" time="0.001"/>
+  <testcase name="subtractTest[[I@6f0bbe79](3)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@5edb57de](4)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@6bb8881b](5)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@6f20534e](6)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@9a52458](7)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@3b676f6](8)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@1117d7b7](9)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@4034b5b8](10)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@5b249d05](11)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@6562271b](12)" classname="smartbytes.testng.testcases.DataProviderTest" time="0.001"/>
+  <testcase name="subtractTest[[I@643cdca1](13)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@66a4c4b5](14)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@225dfdd](15)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@337cbdd](16)" classname="smartbytes.testng.testcases.DataProviderTest" time="0.001"/>
+  <testcase name="subtractTest[[I@59ddb8a9](17)" classname="smartbytes.testng.testcases.DataProviderTest" time="0.001"/>
+  <testcase name="subtractTest[[I@167e971d](18)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest[[I@5886c23](19)" classname="smartbytes.testng.testcases.DataProviderTest" time="0.002"/>
+  <testcase name="subtractTest[[I@1a3fdc9d](20)" classname="smartbytes.testng.testcases.DataProviderTest" time="0"/>
+  <testcase name="subtractTest" classname="smartbytes.testng.testcases.CalculatorTest" time="0.001">
+    <system-out><![CDATA[[INFO ] - subtractTest
+]]></system-out>
+  </testcase>
+  <testcase name="subtractTest" classname="smartbytes.testng.testcases.CalculatorTest" time="0"/>
+  <testcase name="addTest" classname="smartbytes.testng.testcases.CalculatorTest" time="0.001">
+    <system-out><![CDATA[[INFO ] - addTest
+[INFO ] - addTest
+]]></system-out>
+  </testcase>
+  <testcase name="addTest" classname="smartbytes.testng.testcases.CalculatorTest" time="0.001"/>
+  <testcase name="multiplyTest" classname="smartbytes.testng.testcases.CalculatorTest" time="0">
+    <system-out><![CDATA[[INFO ] - multiplyTest
+]]></system-out>
+  </testcase>
+  <testcase name="create_employee_test" classname="smartbytes.testng.testcases.AuthenticationTest" time="0">
+    <system-out><![CDATA[Signing in to get token....
+create_employee_Test:: Employee API with token 633c902c-0eb2-49d4-8f82-62b13bd0f73a
+]]></system-out>
+  </testcase>
+  <testcase name="update_employee_test" classname="smartbytes.testng.testcases.AuthenticationTest" time="0">
+    <system-out><![CDATA[update_employee_Test:: Employee API with token 633c902c-0eb2-49d4-8f82-62b13bd0f73a
+]]></system-out>
+  </testcase>
+  <testcase name="delete_employee_test" classname="smartbytes.testng.testcases.AuthenticationTest" time="0">
+    <system-out><![CDATA[delete_employee_Test::Employee API with token 633c902c-0eb2-49d4-8f82-62b13bd0f73a
+]]></system-out>
+  </testcase>
+</testsuite>

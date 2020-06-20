@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>	
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Test Suite- All Pacakges">
+<parameter name="username"  value="Sashi"/>
+<parameter name="password"  value="Secret"/>
+
+  <test name="PackageTest">
+    <packages>
+      <package name="smartbytes.testng.testcases" />
+   </packages>
+ </test>
+ </suite>

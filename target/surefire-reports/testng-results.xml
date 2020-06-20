@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="9" total="98" passed="89">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Suite- All Pacakges" duration-ms="88" started-at="2020-06-20T08:07:49Z" finished-at="2020-06-20T08:07:49Z">
+    <groups>
+      <group name="add">
+        <method signature="DataProviderTest.addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="addTest" class="smartbytes.testng.testcases.DataProviderTest"/>
+        <method signature="CalculatorTest.addTest()[pri:0, instance:smartbytes.testng.testcases.CalculatorTest@12468a38]" name="addTest" class="smartbytes.testng.testcases.CalculatorTest"/>
+      </group> <!-- add -->
+      <group name="all">
+        <method signature="DataProviderTest.addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="addTest" class="smartbytes.testng.testcases.DataProviderTest"/>
+        <method signature="DataProviderTest.subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="subtractTest" class="smartbytes.testng.testcases.DataProviderTest"/>
+        <method signature="CalculatorTest.addTest()[pri:0, instance:smartbytes.testng.testcases.CalculatorTest@12468a38]" name="addTest" class="smartbytes.testng.testcases.CalculatorTest"/>
+        <method signature="CalculatorTest.multiplyTest()[pri:0, instance:smartbytes.testng.testcases.CalculatorTest@12468a38]" name="multiplyTest" class="smartbytes.testng.testcases.CalculatorTest"/>
+        <method signature="CalculatorTest.subtractTest()[pri:0, instance:smartbytes.testng.testcases.CalculatorTest@12468a38]" name="subtractTest" class="smartbytes.testng.testcases.CalculatorTest"/>
+      </group> <!-- all -->
+      <group name="sub">
+        <method signature="DataProviderTest.subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="subtractTest" class="smartbytes.testng.testcases.DataProviderTest"/>
+        <method signature="CalculatorTest.subtractTest()[pri:0, instance:smartbytes.testng.testcases.CalculatorTest@12468a38]" name="subtractTest" class="smartbytes.testng.testcases.CalculatorTest"/>
+      </group> <!-- sub -->
+    </groups>
+    <test name="PackageTest" duration-ms="88" started-at="2020-06-20T08:07:49Z" finished-at="2020-06-20T08:07:49Z">
+      <class name="smartbytes.testng.testcases.AuthenticationTest">
+        <test-method status="PASS" signature="signin_test()[pri:0, instance:smartbytes.testng.testcases.AuthenticationTest@1aa7ecca]" name="signin_test" is-config="true" duration-ms="2" started-at="2020-06-20T08:07:49Z" finished-at="2020-06-20T08:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signin_test -->
+        <test-method status="PASS" signature="create_employee_test()[pri:0, instance:smartbytes.testng.testcases.AuthenticationTest@1aa7ecca]" name="create_employee_test" duration-ms="1" started-at="2020-06-20T08:07:49Z" finished-at="2020-06-20T08:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- create_employee_test -->
+        <test-method status="PASS" signature="update_employee_test()[pri:0, instance:smartbytes.testng.testcases.AuthenticationTest@1aa7ecca]" name="update_employee_test" duration-ms="0" started-at="2020-06-20T08:07:49Z" depends-on-methods="smartbytes.testng.testcases.AuthenticationTest.create_employee_test" finished-at="2020-06-20T08:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- update_employee_test -->
+        <test-method status="PASS" signature="delete_employee_test()[pri:0, instance:smartbytes.testng.testcases.AuthenticationTest@1aa7ecca]" name="delete_employee_test" duration-ms="1" started-at="2020-06-20T08:07:49Z" depends-on-methods="smartbytes.testng.testcases.AuthenticationTest.update_employee_test" finished-at="2020-06-20T08:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_employee_test -->
+        <test-method status="PASS" signature="signout_test()[pri:0, instance:smartbytes.testng.testcases.AuthenticationTest@1aa7ecca]" name="signout_test" is-config="true" duration-ms="1" started-at="2020-06-20T08:07:49Z" finished-at="2020-06-20T08:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signout_test -->
+      </class> <!-- smartbytes.testng.testcases.AuthenticationTest -->
+      <class name="smartbytes.testng.testcases.CalculatorTest">
+        <test-method status="PASS" signature="addTest()[pri:0, instance:smartbytes.testng.testcases.CalculatorTest@12468a38]" name="addTest" duration-ms="18" started-at="2020-06-20T08:07:49Z" finished-at="2020-06-20T08:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="multiplyTest()[pri:0, instance:smartbytes.testng.testcases.CalculatorTest@12468a38]" name="multiplyTest" duration-ms="1" started-at="2020-06-20T08:07:49Z" finished-at="2020-06-20T08:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplyTest -->
+        <test-method status="PASS" signature="subtractTest()[pri:0, instance:smartbytes.testng.testcases.CalculatorTest@12468a38]" name="subtractTest" duration-ms="1" started-at="2020-06-20T08:07:49Z" finished-at="2020-06-20T08:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+      </class> <!-- smartbytes.testng.testcases.CalculatorTest -->
+      <class name="smartbytes.testng.testcases.DataProviderTest">
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="addTest" duration-ms="1" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@6ece61a7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="addTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@4c433fcc]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="addTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@50c3d123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="addTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@390cda5b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="addTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@4223ffb0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="addTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@2b67fa32]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="addTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@28b7b18f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="addTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@7918f950]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="addTest" duration-ms="1" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@7b669cfb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="addTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@3b8f6fb2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="addTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@593f3f15]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="addTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@2548f68]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="addTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@3b1826e3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="addTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@6b523f27]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="addTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@71b06067]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="addTest" duration-ms="1" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@4a9a763c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="addTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@18183a9d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="addTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@3d3f49fb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="addTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@40e2b90e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="addTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@3190fece]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="subtractTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@3d9a55c6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="subtractTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@452809ab]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="subtractTest" duration-ms="1" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@5edb57de]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="subtractTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@6f0bbe79]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="subtractTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@6bb8881b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="subtractTest" duration-ms="1" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@6f20534e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="subtractTest" duration-ms="1" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@1117d7b7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="subtractTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@3b676f6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="subtractTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@9a52458]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="subtractTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@5b249d05]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="subtractTest" duration-ms="1" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@6562271b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="subtractTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@4034b5b8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="subtractTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@643cdca1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="subtractTest" duration-ms="1" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@225dfdd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="subtractTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@66a4c4b5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="subtractTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@59ddb8a9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="subtractTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@337cbdd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="subtractTest" duration-ms="1" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@5886c23]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="subtractTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@167e971d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@59309333]" name="subtractTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@1a3fdc9d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+      </class> <!-- smartbytes.testng.testcases.DataProviderTest -->
+      <class name="smartbytes.testng.testcases.LoginTest">
+        <test-method status="PASS" signature="login_test(java.lang.String, java.lang.String)[pri:0, instance:smartbytes.testng.testcases.LoginTest@9f116cc]" name="login_test" duration-ms="7" started-at="2020-06-20T08:07:49Z" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sashi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Secret]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_test -->
+      </class> <!-- smartbytes.testng.testcases.LoginTest -->
+    </test> <!-- PackageTest -->
+  </suite> <!-- Test Suite- All Pacakges -->
+  <suite name="Test Suite- Additions" duration-ms="61" started-at="2020-06-20T08:07:49Z" finished-at="2020-06-20T08:07:49Z">
+    <groups>
+      <group name="add">
+        <method signature="CalculatorTest.addTest()[pri:0, instance:smartbytes.testng.testcases.CalculatorTest@6e171cd7]" name="addTest" class="smartbytes.testng.testcases.CalculatorTest"/>
+        <method signature="DataProviderTest.addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@402bba4f]" name="addTest" class="smartbytes.testng.testcases.DataProviderTest"/>
+      </group> <!-- add -->
+      <group name="all">
+        <method signature="CalculatorTest.addTest()[pri:0, instance:smartbytes.testng.testcases.CalculatorTest@6e171cd7]" name="addTest" class="smartbytes.testng.testcases.CalculatorTest"/>
+        <method signature="DataProviderTest.addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@402bba4f]" name="addTest" class="smartbytes.testng.testcases.DataProviderTest"/>
+      </group> <!-- all -->
+    </groups>
+    <test name="Add Tests" duration-ms="61" started-at="2020-06-20T08:07:49Z" finished-at="2020-06-20T08:07:49Z">
+      <class name="smartbytes.testng.testcases.CalculatorTest">
+        <test-method status="PASS" signature="addTest()[pri:0, instance:smartbytes.testng.testcases.CalculatorTest@6e171cd7]" name="addTest" duration-ms="27" started-at="2020-06-20T08:07:49Z" finished-at="2020-06-20T08:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+      </class> <!-- smartbytes.testng.testcases.CalculatorTest -->
+      <class name="smartbytes.testng.testcases.DataProviderTest">
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@402bba4f]" name="addTest" duration-ms="10" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@21e1d628]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@402bba4f]" name="addTest" duration-ms="1" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@6fddb442]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@402bba4f]" name="addTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@3e4358b2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@402bba4f]" name="addTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@39d7fdc7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@402bba4f]" name="addTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@685db4f7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@402bba4f]" name="addTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@4286479]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@402bba4f]" name="addTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@32030099]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@402bba4f]" name="addTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@312203b9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@402bba4f]" name="addTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@4ba7b678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@402bba4f]" name="addTest" duration-ms="1" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@137e9190]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@402bba4f]" name="addTest" duration-ms="1" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@57f61d5e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@402bba4f]" name="addTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@32049ca9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@402bba4f]" name="addTest" duration-ms="1" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@6419d338]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@402bba4f]" name="addTest" duration-ms="1" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@2c8de5b6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@402bba4f]" name="addTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@14409b3c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@402bba4f]" name="addTest" duration-ms="2" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@3b09c2b9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@402bba4f]" name="addTest" duration-ms="1" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@6cfbc64c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@402bba4f]" name="addTest" duration-ms="1" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@505a2979]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@402bba4f]" name="addTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@74f8cdaa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+        <test-method status="PASS" signature="addTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@402bba4f]" name="addTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_add" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@7a9e1871]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addTest -->
+      </class> <!-- smartbytes.testng.testcases.DataProviderTest -->
+    </test> <!-- Add Tests -->
+  </suite> <!-- Test Suite- Additions -->
+  <suite name="Test Suite- Subtractions" duration-ms="57" started-at="2020-06-20T08:07:49Z" finished-at="2020-06-20T08:07:49Z">
+    <groups>
+      <group name="all">
+        <method signature="CalculatorTest.subtractTest()[pri:0, instance:smartbytes.testng.testcases.CalculatorTest@5ffead27]" name="subtractTest" class="smartbytes.testng.testcases.CalculatorTest"/>
+        <method signature="DataProviderTest.subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@6356695f]" name="subtractTest" class="smartbytes.testng.testcases.DataProviderTest"/>
+      </group> <!-- all -->
+      <group name="sub">
+        <method signature="CalculatorTest.subtractTest()[pri:0, instance:smartbytes.testng.testcases.CalculatorTest@5ffead27]" name="subtractTest" class="smartbytes.testng.testcases.CalculatorTest"/>
+        <method signature="DataProviderTest.subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@6356695f]" name="subtractTest" class="smartbytes.testng.testcases.DataProviderTest"/>
+      </group> <!-- sub -->
+    </groups>
+    <test name="Subtract Tests" duration-ms="57" started-at="2020-06-20T08:07:49Z" finished-at="2020-06-20T08:07:49Z">
+      <class name="smartbytes.testng.testcases.CalculatorTest">
+        <test-method status="PASS" signature="subtractTest()[pri:0, instance:smartbytes.testng.testcases.CalculatorTest@5ffead27]" name="subtractTest" duration-ms="27" started-at="2020-06-20T08:07:49Z" finished-at="2020-06-20T08:07:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+      </class> <!-- smartbytes.testng.testcases.CalculatorTest -->
+      <class name="smartbytes.testng.testcases.DataProviderTest">
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@6356695f]" name="subtractTest" duration-ms="9" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@7ca592e3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@6356695f]" name="subtractTest" duration-ms="1" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@7bc619b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@6356695f]" name="subtractTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@4e2c7ca0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@6356695f]" name="subtractTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@7ba0adfb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@6356695f]" name="subtractTest" duration-ms="1" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@3f16052b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@6356695f]" name="subtractTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@b1f3c3c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@6356695f]" name="subtractTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@37020874]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@6356695f]" name="subtractTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@57183bc6]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@6356695f]" name="subtractTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@24c77e1a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@6356695f]" name="subtractTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@4bd431f3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@6356695f]" name="subtractTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@5b9c061c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@6356695f]" name="subtractTest" duration-ms="1" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@102e0dcd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@6356695f]" name="subtractTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@5d4f56]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@6356695f]" name="subtractTest" duration-ms="1" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@1b71fc5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@6356695f]" name="subtractTest" duration-ms="1" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@5169e05]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@6356695f]" name="subtractTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@641b10f9]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@6356695f]" name="subtractTest" duration-ms="1" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@ac2bc45]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@6356695f]" name="subtractTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@22551e55]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@6356695f]" name="subtractTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@1a281d19]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+        <test-method status="PASS" signature="subtractTest([I)[pri:0, instance:smartbytes.testng.testcases.DataProviderTest@6356695f]" name="subtractTest" duration-ms="0" started-at="2020-06-20T08:07:49Z" data-provider="data_sub" finished-at="2020-06-20T08:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[I@4e9eb44]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subtractTest -->
+      </class> <!-- smartbytes.testng.testcases.DataProviderTest -->
+    </test> <!-- Subtract Tests -->
+  </suite> <!-- Test Suite- Subtractions -->
+</testng-results>

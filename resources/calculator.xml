@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TS_Calculator">
+  <test name="CalcRegressionTest">
+    <classes>
+      <class name="smartbytes.testng.testcases.CalculatorTest"/>
+      <class name="smartbytes.testng.testcases.DataProviderTest"/>
+    </classes>
+  </test>
+</suite>

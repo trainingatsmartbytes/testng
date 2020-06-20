@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>	
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+ <suite name="Test Suite- Additions"  parallel="classes">
+   
+   <groups>
+    <run>
+      <include name="add"/>
+    </run>
+  </groups>
+  
+  <test name="Add Tests">
+  <classes>
+      <class name="smartbytes.testng.testcases.CalculatorTest"/>
+      <class name="smartbytes.testng.testcases.DataProviderTest"/>
+      <class name="smartbytes.testng.testcases.AuthenticationTest"/>
+    </classes>
+ </test>
+</suite>
